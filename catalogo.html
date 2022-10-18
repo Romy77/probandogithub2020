@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Catálogo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/56cde7d9be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.svg" alt="La Librería | Libros Fantásticos"></a>
+        <nav>
+            <ul>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="Sucursales.html">Sucursales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <form class="buscar" action="" method="GET">
+            <label for="busqueda"></label>
+            <input id="busqueda" name="busqueda" type="text" placeholder="Buscá tu libro">
+            <button id="buscar" name="buscar" aria-label="buscar contenido"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+
+    <main role="main">
+        <section id="catalogo">
+            <!-- Título de la tabla-->
+            <h1>Catálogo</h1>
+            <!-- La Tabla -->
+            <table>
+                <!-- Primera fila y encabezado-->
+                <tr>
+                    <th>Portada</th>
+                    <th>Título</th>
+                    <th>Precio</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/01.jpg" alt="Lovecraft, Obras completas">
+                    </td>
+                    <td>
+                        Lovecraft, Obras Completas
+                    </td>
+                    <td>
+                        $4.138,69
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/02.jpg" alt="Las Crónicas Completas de Conan">
+                    </td>
+                    <td>
+                        Las Crónicas Completas de Conan
+                    </td>
+                    <td>
+                        $5.995,79
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/03.jpg" alt="Los Hijos de Húrin">
+                    </td>
+                    <td>
+                        Los Hijos de Húrin
+                    </td>
+                    <td>
+                        $1.797,58
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/04.jpg" alt="El Silmarillion">
+                    </td>
+                    <td>
+                        El Silmarillion
+                    </td>
+                    <td>
+                        $1.971,30
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/05.jpg" alt="Duna">
+                    </td>
+                    <td>
+                        Duna
+                    </td>
+                    <td>
+                        $2.528,31
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/06.jpg" alt="Esfera">
+                    </td>
+                    <td>
+                        Esfera
+                    </td>
+                    <td>
+                        $2.248,37
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/07.jpg" alt="Todos los Poemas y Cuentos de Edgar Allan Poe">
+                    </td>
+                    <td>
+                        Todos los Poemas y Cuentos de Edgar Allan Poe
+                    </td>
+                    <td>
+                        $4.055,39
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="img/08.jpg" alt="Obras Completas de William Shakespeare">
+                    </td>
+                    <td>
+                        Obras Completas de William Shakespeare
+                    </td>
+                    <td>
+                        $8.050,05
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="map.html" target="_blank">Rivadavia 1755 - CABA</a></li>
+            <li>011-4444-6666</li>
+            <li>contacto@lalibreria.com.ar</li>
+            <li><a href="#header">Ir arriba</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
